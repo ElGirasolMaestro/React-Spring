@@ -33,6 +33,8 @@ To run this project locally, follow these steps:
 3. Build and run the project using Maven:
    ```sh
    cd fullstack-backend
+   ```
+   ```sh
    mvn spring-boot:run
    
 4. The application will be accessible at http://localhost:8083 by default.
@@ -57,16 +59,19 @@ Content-Type: application/json
     "username": "johndoe",
     "email": "john@example.com"
 }
+```
 2. Retrieve All Users (GET /getUsers)
 Request:
 ```sh
 GET http://localhost:8083/getUsers
+```
 3. Retrieve a User by ID (GET /getUser/{id})
 Request:
 
 Replace {id} with the actual user ID, for example, 1.
 ```sh
 GET http://localhost:8083/getUser/1
+```
 4. Update a User by ID (PUT /modifyUser/{id})
 Request:
 
@@ -80,13 +85,14 @@ Content-Type: application/json
     "username": "updatedusername",
     "email": "updated@example.com"
 }
+```
 5. Delete a User by ID (DELETE /deleteUser/{id})
 Request:
 
 Replace {id} with the actual user ID, for example, 1.
 ```sh
 DELETE http://localhost:8083/deleteUser/1
-
+```
 ## Contributing
 Feel free to contribute to this project by opening issues or submitting pull requests. Contributions are welcome and appreciated.
 
