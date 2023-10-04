@@ -96,9 +96,6 @@ DELETE http://localhost:8083/deleteUser/1
 ## Contributing
 Feel free to contribute to this project by opening issues or submitting pull requests. Contributions are welcome and appreciated.
 
-## License
-This project is licensed under the MIT License.
-
 ## Contact
 For inquiries, contact grisol225@gmail.com.
 
